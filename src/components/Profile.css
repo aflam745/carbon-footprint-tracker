@@ -1,0 +1,9 @@
+.profile-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .profile-container > * {
+    flex: 1;
+  }

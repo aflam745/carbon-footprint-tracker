@@ -1,0 +1,44 @@
+.activity-card-container {
+    background-color: #f4ede4;
+    border: 1px solid #d8cfc4;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  .activity-card-container:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+  }
+
+  .activity-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .activity-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5a4a42;
+    margin: 0;
+  }
+
+  .activity-details {
+    font-size: 14px;
+    color: #776b64;
+    margin: 0;
+  }
+
+  .activity-carbon-rank {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7d5a50;
+    margin-top: 8px;
+    border-top: 1px solid #d8cfc4;
+    padding-top: 8px;
+  }
+

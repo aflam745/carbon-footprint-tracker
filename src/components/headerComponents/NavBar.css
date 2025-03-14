@@ -1,0 +1,36 @@
+/* NavBar.css */
+.navbar-container {
+    display: flex;
+    gap: 12px;
+  }
+
+  .link-button {
+    background-color: transparent;
+    border: 1px solid #d8cfc4;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .link-button:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    background-color: #5a4a42;
+    color: #f4ede4;
+    transform: scale(1.1);
+  }
+
+  .profile-icon {
+    width: 26px;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .profile-icon:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+  }
+

@@ -1,0 +1,10 @@
+/* Logs.css */
+.logs-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .logs-container > * {
+    flex: 1;
+  }

@@ -1,0 +1,64 @@
+.achievement-container {
+  width: 90vw;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 24px;
+  background: #f9f5f0;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.achievement-container:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* header container - aligns title, icon, and points */
+.achievement-header-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #d8cfc4;
+}
+
+.achievement-header {
+  font-size: 24px;
+  font-weight: 500;
+  color: #5a4a42;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.trophy-icon {
+  width: 24px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.points-amount {
+  font-size: 16px;
+  font-weight: 500;
+  color: #776b64;
+  background-color: #f4ede4;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #d8cfc4;
+  margin-left: auto;
+}
+
+
+.achievement-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+

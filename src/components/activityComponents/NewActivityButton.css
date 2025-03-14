@@ -1,0 +1,29 @@
+.new-activity-button {
+    background-color: #f4ede4;
+    color: #5a4a42;
+    padding: 10px 18px;
+    border: 1px solid #d8cfc4;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out, transform 0.1s ease-in-out;
+  }
+
+  .new-activity-button:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    background-color: #5a4a42;
+    color: #f4ede4
+  }
+
+  .new-activity-button:active {
+    background-color: #dfd5c8;
+    border-color: #b5a89b;
+    transform: scale(0.98);
+  }
+
+  .new-activity-button:focus {
+    outline: none;
+    border-color: #a59487;
+  }
+

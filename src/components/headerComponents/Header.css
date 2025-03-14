@@ -1,0 +1,30 @@
+header {
+  background-color: #f4ede4;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.header-title-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #5a4a42;
+  white-space: nowrap;
+}
+
+.leaf-icon {
+  width: 40px;
+  height: auto;
+  object-fit: contain;
+}
+

@@ -1,0 +1,42 @@
+.achievement-card-container {
+    background-color: #f4ede4;
+    border: 1px solid #d8cfc4;
+    border-radius: 10px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+
+  .achievement-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5a4a42;
+    margin: 0;
+  }
+
+  .achievement-points {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7d5a50;
+    background-color: #f9f5f0;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #d8cfc4;
+    white-space: nowrap;
+  }
+
+  .achievement-button {
+    flex-shrink: 0;
+    margin-left: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .achievement-button:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.08);
+    background-color: #5a4a42;
+    color: #f4ede4;
+    transform: scale(1.1);
+  }
